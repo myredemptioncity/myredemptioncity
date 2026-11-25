@@ -1,0 +1,7 @@
+# Deployment bundles (build them fresh from the source)
+*.zip
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+node_modules/
