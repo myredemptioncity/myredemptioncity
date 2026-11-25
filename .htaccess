@@ -7,6 +7,9 @@ RewriteCond %{HTTP_HOST} ^myredemptioncity\.com$ [NC]
 RewriteRule ^(.*)$ https://www.myredemptioncity.com/$1 [L,R=301]
 
 DirectoryIndex index.html
+
+# PWA: correct type for the app manifest
+AddType application/manifest+json .webmanifest
 Options -Indexes
 
 # Compression
@@ -28,7 +31,7 @@ Options -Indexes
 
 # Hostinger's CDN ignores some Expires rules for scripts — force revalidation explicitly
 <IfModule mod_headers.c>
-  <FilesMatch "\.(js|css|html)$">
+  <FilesMatch "\.(js|css|html|webmanifest)$">
     Header set Cache-Control "no-cache, must-revalidate"
   </FilesMatch>
 </IfModule>

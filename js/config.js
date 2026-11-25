@@ -21,10 +21,10 @@ window.RC_CONFIG = {
   SUPABASE_URL: 'https://dnswfzegpbuxsabrelcf.supabase.co',
   SUPABASE_KEY: 'sb_publishable_mP2Yk1tUclDzT93TszZ9zw_MLKKtXlg',
 
-  // PREVIEW MODE: data stays in each visitor's browser and sample riders/shops reply automatically.
-  // Set to false to go live on Supabase. While true, you can still test live by opening the site with ?mode=live
-  // (and return to preview with ?mode=preview).
-  DEMO_MODE: true,
+  // LIVE: real accounts and data on Supabase. Set to true to return to the browser-only preview
+  // with sample riders/shops. You can still open the preview in one tab with ?mode=preview
+  // (and go back to live with ?mode=live).
+  DEMO_MODE: false,
 
   // Preview-only admin PIN. Anyone can read this file, so it is NOT security — real admin login comes with the backend.
   ADMIN_PIN: '7391',

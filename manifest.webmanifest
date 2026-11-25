@@ -1,0 +1,19 @@
+{
+  "name": "RC Go · Redemption City",
+  "short_name": "RC Go",
+  "description": "Keke rides, food & parcel delivery and local shopping in Redemption City, Mowe, Ogun State.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en-NG",
+  "categories": ["travel", "food", "shopping", "lifestyle"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
