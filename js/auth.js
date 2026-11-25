@@ -89,6 +89,7 @@
           <footer class="land-foot">
             <a class="muted" href="?mode=live#/auth/admin">${icon('shield-check', 'ic-sm')} Staff sign-in</a>
             <span>${esc(C.APP_NAME)} serves Redemption City, Mowe, Ogun State · Pay riders and shops in cash or by bank transfer</span>
+            <span><a class="muted" href="terms.html">Terms of Use</a> · <a class="muted" href="privacy.html">Privacy Policy</a></span>
           </footer>
         </main>
 
@@ -137,7 +138,7 @@
                 <input class="input" id="name" name="name" autocomplete="name" value="${esc(authState.name)}" aria-describedby="name-err">
                 <p class="err" id="name-err" role="alert"></p></div>
               <button class="btn btn-primary btn-block" type="submit">Continue ${icon('arrow-right')}</button>
-              <p class="xs muted center">By continuing you agree to the ${esc(C.APP_NAME)} Terms and Privacy Policy.</p>
+              <p class="xs muted center">By continuing you agree to the ${esc(C.APP_NAME)} <a href="terms.html" target="_blank" rel="noopener">Terms of Use</a> and <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</p>
             </form>`}
         </div></div>`;
     },
